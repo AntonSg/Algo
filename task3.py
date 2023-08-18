@@ -1,8 +1,8 @@
 
 def searchInsert(target,l):
-    left, right = 0 ,len(l) -1
+    left, right = 0, len(l) - 1
     while left <= right:
-        mid = (left + right )//2
+        mid = (left + right) // 2
         if l[mid] == target:
             return mid
         elif l[mid] < target:
